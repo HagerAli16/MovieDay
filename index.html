@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieDay</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">Movie <span>Day</span></a>
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search movie">
+                <i class='bx bx-search'></i>
+            </div>
+            <a href="#" class="user">
+                <img src="image/4.png" alt="" class="user-img">
+            </a>
+            <div class="navbar">
+                <a href="#home" class="nav-link nav-active">
+                    <i class='bx bx-home'></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#popular" class="nav-link">
+                    <i class='bx bxs-hot'></i>
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#movies" class="nav-link">
+                    <i class='bx bx-compass' ></i>
+                    <span class="nav-link-title">Explore</span>
+                </a>
+                <a href="play-page.html" class="nav-link">
+                    <i class='bx bxs-tv'></i>
+                    <span class="nav-link-title">Movies</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-heart'></i>
+                    <span class="nav-link-title">favourite</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- <section class="home container" id="home">
+       <img src="image/7.jpg"  class="home-img">
+       <div class="home-text">
+        <h1 class="home-title">Tiger 3</h1>
+        <p>Tiger and Zoya are back - <br>to save the country and their family.  <br>This time it's personal.</p>
+        <a href="#" class="watch-btn">
+            <i class='bx bxs-right-arrow'></i>
+            <span>Watch the movie</span>
+        </a>
+       </div> 
+    </section> -->
+    <section class="home container" id="home">
+        <div class="image-wrapper">
+            <img src="image/7.jpg" class="home-img">
+            <div class="image-overlay">
+                <h1 class="home-title">Tiger 3</h1>
+                <p class="image-description">Tiger and Zoya are back - <br>to save the country and their family.  <br>This time it's personal.</p>
+                <a href="#" class="watch-btn">
+                    <i class='bx bxs-right-arrow'></i>
+                    <span>Watch the movie</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="popular container" id="popular">
+      <div class="heading">
+        <h2 class="heading-title"> Popular Movies</h2>
+        <!-- swiper buttons --> 
+        <!-- <div class="swiper-btn">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div> -->
+      </div>
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+                <!-- <!..movie-box 1> -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/فيلم-Freelance-2023-مترجم 1.png" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">Freelance</h2>
+                            <span class="movie-type">Action/Comedy</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- <!..movie-box 2> -->
+                   <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/فيلم-Last-Call-for-Istanbul-2023-مترجم 1.png" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">Last Call for Istanbul</h2>
+                            <span class="movie-type"> Drama/Romance</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- <!..movie-box 3> -->
+                   <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/فيلم-Leave-the-World-Behind-2023-مترجم 1.png" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">Leave the World Behind</h2>
+                            <span class="movie-type"> Drama / Mystery / Thriller</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- <!..movie-box 4> -->
+                   <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/فيلم-Mission-Impossible-Dead-Reckoning-Part-One-2023-مترجم 1.png" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">Mission Impossible Dead Reckoning-Part-One</h2>
+                            <span class="movie-type"> Action/Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- <!..movie-box 5> -->
+                   <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/فيلم-No-One-Will-Save-You-2023-مترجم 1.png" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">No One Will Save You</h2>
+                            <span class="movie-type"> Horror/Sci-Fi</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- <!..movie-box 6> -->
+                   <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/فيلم-Silent-Night-2023-مترجم 1.png" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">Silent Night </h2>
+                            <span class="movie-type"> Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- <!..movie-box 7> -->
+                   <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/فيلم-The-Boogeyman-2023-مترجم 1.png" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">The Boogeyman</h2>
+                            <span class="movie-type"> Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- <!..movie-box 8> -->
+                   <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/crew.jpg" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">Crew</h2>
+                            <span class="movie-type"> Comedy/Drama</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   <!-- <!..movie-box 9> -->
+                   <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="image/Fighter_film_teaser.jpg" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">Fighter</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </section>
+    <!-- Popular Movies end -->
+     <!--  Movies section start -->
+     <section class="movies container" id="movies">
+        <div class="heading">
+            <h2 class="heading-title"> Movies and Shows</h2>
+        </div>
+        <!--  Movies content -->
+        <div class="movies-content">
+            <!-- <!..movie-box 1> -->
+             <div class="movie-box">
+                        <img src="image/Encanto.png" class="movie-box-img" alt="">
+                        <div class="box-text">
+                            <h2 class="movie-title">Encanto</h2>
+                            <span class="movie-type">Animation /Adventure</span>
+                            <a href="play-page.html" class="watch-btn play-btn">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+                    </div>
+                       <!-- <!..movie-box 2> -->
+             <div class="movie-box">
+                <img src="image/leo.webp" class="movie-box-img" alt="">
+                <div class="box-text">
+                    <h2 class="movie-title">leo</h2>
+                    <span class="movie-type">Animation/Adventure</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bxs-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- <!..movie-box 3> -->
+            <div class="movie-box">
+                <img src="image/Bawaal.jpg_large" class="movie-box-img" alt="">
+                <div class="box-text">
+                    <h2 class="movie-title">Bawaal</h2>
+                    <span class="movie-type">Action/Drama</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bxs-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- <!..movie-box 4> -->
+            <div class="movie-box">
+                <img src="image/Migration.png" class="movie-box-img" alt="">
+                <div class="box-text">
+                    <h2 class="movie-title">Migration</h2>
+                    <span class="movie-type">Animation/Adventure</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bxs-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- <!..movie-box 5> -->
+            <div class="movie-box">
+                <img src="image/orion-and-the-dark.jpg" class="movie-box-img" alt="">
+                <div class="box-text">
+                    <h2 class="movie-title">orion and the dark</h2>
+                    <span class="movie-type">Comedy/Drama</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bxs-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- <!..movie-box 6> -->
+            <div class="movie-box">
+                <img src="image/Ruyanada gurursun.png" class="movie-box-img" alt="">
+                <div class="box-text">
+                    <h2 class="movie-title">Ruyanada gurursun</h2>
+                    <span class="movie-type">Comedy/Drama</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bxs-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- <!..movie-box 7> -->
+            <div class="movie-box">
+                <img src="image/The Childe.png" class="movie-box-img" alt="">
+                <div class="box-text">
+                    <h2 class="movie-title">The Childe</h2>
+                    <span class="movie-type">Action/Drama</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bxs-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+            <!-- <!..movie-box 8> -->
+            <div class="movie-box">
+                <img src="image/مفاتيح العودة (2).png" class="movie-box-img" alt="">
+                <div class="box-text">
+                    <h2 class="movie-title">Return keys</h2>
+                    <span class="movie-type">Documentary</span>
+                    <a href="#" class="watch-btn play-btn">
+                        <i class='bx bxs-right-arrow'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!--  Movies section  end -->
+     <!-- next page -->
+     <div class="next-page">
+        <a href="#" class="next-btn">Next Page</a>
+     </div>
+     <!-- copyright -->
+     <div class="copyright">
+      <!-- <p>"Copyright © 2024 MovieDay. All rights reserved. | Privacy Policy | Terms of Service"</p> -->
+        <p> "&#169; 2024 MovieDay. All rights reserved. | Privacy Policy | Terms of Service"</p>
+     </div>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

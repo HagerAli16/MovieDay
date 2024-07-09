@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        /* CSS as provided above */
+    </style>
+</head>
+<body>
+    <section class="home container" id="home">
+        <img src="image/maxresdefault.jpg" class="home-img">
+        <div class="home-text">
+            <h1 class="home-title">Tiger 3</h1>
+            <p>Tiger and Zoya are back - <br>to save the country and their family. <br>This time it's personal.</p>
+            <a href="#" class="watch-btn">
+                <i class='bx bxs-right-arrow'></i>
+                <span>Watch the movie</span>
+            </a>
+        </div>
+    </section>
+
+    <script>
+        var imageUrls = [
+            "image/maxresdefault.jpg",
+            "image/other_image1.jpg",
+            "image/other_image2.jpg",
+            // Add more image URLs as needed
+        ];
+
+        var currentIndex = 0;
+
+        function changeImage() {
+            var imgElement = document.querySelector(".home-img");
+            imgElement.src = imageUrls[currentIndex];
+            currentIndex = (currentIndex + 1) % imageUrls.length;
+        }
+
+        changeImage();
+        setInterval(changeImage, 5000);
+    </script>
+</body>
+</html>
